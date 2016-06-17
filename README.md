@@ -2,7 +2,6 @@
 A (non-exhaustive) collection of general performance guidelines. 
 
 ## General
-* Set cache accordingly
 * Enable gzip
 * Scrolling/animation should keep to 60fps
 
@@ -32,3 +31,6 @@ A (non-exhaustive) collection of general performance guidelines.
 ## Fonts
 * Customise subsetting to only include characters that are needed. 
 * Try to refrain from 3rd party font hosting
+
+## Caching
+* All server responses should specify a caching policy that dictates when the client can reuse a previously fetched response. In order to adhere to the Page Insights rulings, caching times for static assets should be up to a year with a minimum of one week. This can be achieved through a multitude of different ways as highlighted in this [google doc](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#caching-checklist)
