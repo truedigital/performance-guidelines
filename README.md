@@ -1,5 +1,8 @@
 # Performance Guidelines
-A (non-exhaustive) collection of general performance guidelines. 
+We have a documented set of guidelines for our performance and optimisation output for our web applications. 
+These guidelines, where applied, allow us to get the best experience for users across a multitude of different devices but are specifically measured against mobile and desktop. 
+The guidelines will constantly be updated to adapt to changes in best practice mainly lead by the rules applied by the Google [Page Insights] (https://developers.google.com/speed/pagespeed/insights/) tool. 
+Our performance and optimisation guidelines are at the forefront of our thinking when approaching the development of any web application but are still susceptible to influence from the demands of the web application itself.
 
 ## General
 * Enable gzip
